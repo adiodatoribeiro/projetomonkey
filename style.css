@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19,41,67);
+}
+
+nav{
+    display: flex;
+    margin: 10px;
+    position: absolute;
+    gap: 30px;
+    right: 40%;
+}
+
+a{ 
+    text-decoration: none;
+    color: white;
+}
+
+a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+a:hover::after{
+    width: 100%;
+}
+
+section{
+    display: flex;
+}
+
+.coluna{
+    height: 740px;
+    border: 1px solid rgb(60, 73, 95);
+    color: rgb(233, 139, 225);
+    flex: 1;
+    border-bottom: 0;
+}
+
+#imgLogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;  
+}
+
+.icone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 600px;
+    color: rgb(233, 139, 225);
+    gap: 10px;
+}
+
+#div2{
+  flex: 3;  
+}
+
+.bola{
+    height: 600px;
+    width: 650px;
+    margin: 10px;
+    background-color: rgb(43, 50, 85);
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 27%;
+    position: absolute;
+}
+
+.Btn{
+    background-color: rgb(233, 139, 225);
+    color: white;
+    border: 0 solid transparent;
+    border-radius: 10px;
+    clip-path: polygon(52% 0, 100% 0, 100% 53%, 76% 77%, 0 78%, 0 21%);
+    margin: 30px;
+    padding: 20px;
+    border-top: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.Btn:hover{
+    transform: scale(1.05);
+}
+
+.divImg{
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+}
+
+p{
+    margin: 10px;
+}
+
+#div4{
+    flex: 3;
+}
+
+#div5{
+    margin-left: 20%;
+    flex: 3;
+}
+
+.three{
+    align-items: center;
+    margin: 20%;
+}
+
+#div6{
+    flex: 1;
+}
